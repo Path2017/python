@@ -7,3 +7,8 @@ print(num)
 f = abs
 num2 = f(-20)
 print(num2)
+
+# 传入函数 数值的绝对值相加:
+def add(x, y, f):
+    return f(x)+f(y)
+print(add(4,-3,abs))

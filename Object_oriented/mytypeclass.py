@@ -1,9 +1,9 @@
-class Student(object):
+class myStudent(object):
   def __init__(self,name,score):
     self.name = name
     self.score = score
   def print_score(self):
     print('%s:%s'%(self.name,self.score))
 
-bart = Student('Cris',90)
+bart = myStudent('Cris',90)
 bart.print_score()

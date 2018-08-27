@@ -5,6 +5,7 @@
 # 第2行注释表示.py文件本身使用标准UTF-8编码
 
 'a test module'
+# 模块的文档注释 可利用 __doc__ 进行访问
 __author__ = 'cris.liu'
 import sys
 
@@ -20,3 +21,5 @@ if __name__ == '__main__':
   test()
 
 # sys模块有一个argv变量，用list存储了命令行的所有参数。argv至少有一个元素，因为第一个参数永远是该.py文件的名称
+
+print(__doc__)

@@ -11,3 +11,4 @@ print(s.name)
 from mytypeclass import myStudent
 b = myStudent('type',20)
 b.print_score()
+

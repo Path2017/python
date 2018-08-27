@@ -8,9 +8,9 @@ def count():
     return fs
 
 # f1, f2, f3 = count()
-# print(f1())
-# print(f2())
-# print(f3())
+# print(f1()) 9
+# print(f2()) 9
+# print(f3()) 9
 
 # 上述函数方法 输出的结果均为9 应修改为以下方式
 def count2():
@@ -24,6 +24,6 @@ def count2():
     return fs
 
 # h1, h2, h3 = count2()
-# print(h1())
-# print(h2())
-# print(h3())
+# print(h1()) 1
+# print(h2()) 4
+# print(h3()) 9
